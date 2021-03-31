@@ -31,7 +31,7 @@ Here is an example of how to load the data in python:
 ```
 import h5py
 
-with h5.File('chr1/plus_scores.h5', 'r') as infile:
+with h5py.File('chr1/plus_scores.h5', 'r') as infile:
 
     try:
         # in newer version of h5py the strings are not decoded -> decode them
