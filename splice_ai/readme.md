@@ -10,7 +10,6 @@ Every file contains a tab-delimited table with the following columns:
 - **start**: the 0-based start position of the variant
 - **end**: the 0-based, non-inclusive end position of the variant (i.e. _start_+1)
 - **gene**: gene name
-- **alt**: the alternative 3-mer
 - **DP_AG**-**DS_DL**: Delta scores and positions, as described [here](https://github.com/Illumina/SpliceAI).
 - **max_effect**: maximum across the different delta scores.
 
