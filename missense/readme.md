@@ -1,6 +1,6 @@
 # Missense variant effect predictions
 
-Variant effect predictions produced by the [Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html). Variants are collapsed, meaning that they are only shown once for every gene. File names indicate the chromosomes.
+Variant effect predictions produced by the [Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html) for genes in the [Ensembl 97](https://www.ensembl.org/index.html) release. Variants are collapsed, meaning that they are only shown once for every gene. File names indicate the chromosomes.
 
 Every file contains a tab-delimited table with the following columns:
 
