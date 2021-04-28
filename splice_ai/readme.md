@@ -1,6 +1,6 @@
 # Splice variant effect predictions
 
-Variant effect predictions produced by [SpliceAI](https://github.com/Illumina/SpliceAI). There are the masked splice-site-proximal delta scores (1.3) intersected with UK Biobank variants and filtered to keep only variants with at least one delta score >= 0.1. Only performed for single nucleotide variants (SNVs).
+Variant effect predictions produced by [SpliceAI](https://github.com/Illumina/SpliceAI). These are the masked splice-site-proximal delta scores (1.3) intersected with UK Biobank variants and filtered to keep only variants with at least one delta score >= 0.1. Only performed for single nucleotide variants (SNVs).
 
 
 Every file contains a tab-delimited table with the following columns:
