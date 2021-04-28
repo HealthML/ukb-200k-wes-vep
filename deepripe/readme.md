@@ -31,7 +31,7 @@ Here is an example of how to load the data in python:
 ```
 import h5py
 
-with h5py.File('chr1/plus_scores.h5', 'r') as infile:
+with h5py.File('chr1/plus_scores.h5', 'r') as f:
 
     try:
         # in newer version of h5py the strings are not decoded -> decode them
@@ -39,8 +39,7 @@ with h5py.File('chr1/plus_scores.h5', 'r') as infile:
     except AttributeError:
         # this used to work in older versions of  h5py:
         labels = list(f['labels'][:])
-    
-    labels = list(infile['labels'])
+
     diffscores = infile['diffscore'][:]
     
 ```
