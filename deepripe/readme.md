@@ -17,7 +17,7 @@ This model is described in here:
 }
 ```
 
-Predictions are strand-specific, and were only produced vor variants overlapping protein-coding genes in the [Ensembl 97](https://www.ensembl.org/index.html) release. I.e. the predictions for chromosome X, strand Y can be found in `./chrX/Y_score.h5`. The accompanying file `./chrX/Y_vid.txt.gz` contains the variant names in the order they appear in the HDF5-datasets.
+Predictions are strand-specific, and were only produced vor variants overlapping protein-coding genes in the [Ensembl 97](https://www.ensembl.org/index.html) release. I.e. the predictions for chromosome $, strand @ can be found in `./chr$/@_score.h5`. The accompanying file `./chr$/@_vid.txt.gz` contains the variant names in the order they appear in the HDF5-datasets.
 
 Every HDF5 file contains 3 datasets:
 - `labels` containts the column names (corresponding to RBPs).
